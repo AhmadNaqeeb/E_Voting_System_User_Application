@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_votingsystem">
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:name=".Database.FirebaseDBHandler"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EVotingSystem">
+        <activity android:name=".ForgotPasswordOTP"></activity>
+        <activity android:name=".forgotNewPassword" />
+        <activity android:name=".View_Candidates_Model.View_All_Candidate" />
+        <activity android:name=".Candidates_Manage.View_Candidates" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".CustomSpinner" />
+        <activity android:name=".Voting_Results_Activity" />
+        <activity android:name=".BioMetricAuthenticateActivity" />
+        <activity android:name=".Verification_Code" />
+        <activity android:name=".updateProfile" />
+        <activity android:name=".aboutUS" />
+        <activity android:name=".VoterHomeActivity" />
+        <activity android:name=".forgotPassword" />
+        <activity android:name=".RegisterAccountActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
